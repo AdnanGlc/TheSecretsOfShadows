@@ -1,0 +1,4 @@
+repository "TheSecretsOfShadows@adnanglc@cloud"
+  path "/"
+    br "/main"
+    co "/main"
