@@ -61,6 +61,11 @@ public class PlayerInput : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         characterController.Move(velocity * Time.deltaTime);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            
+        }
     }
 
     void CheckPotion()
